@@ -1,0 +1,50 @@
+h1 {
+    color: rgb(0, 0, 0);
+    background-color: aqua;
+}
+
+p {
+    color: black;
+    background-color: antiquewhite;
+    font-family:'Times New Roman';
+}
+
+.zoom {
+  width: 700px; /* Adjust as needed */
+  animation: zoomInOut 2s infinite ease-in-out;
+}
+
+/* Keyframes for zoom in and out */
+@keyframes zoomInOut {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2); /* Zoom level, adjust as needed */
+  }
+}
+
+.container {
+    text-align: center;
+}
+
+
+ul {
+    color: black;
+    background-color: antiquewhite;
+    font-family:'Times New Roman';
+    
+
+    
+}
+.hover-text:hover {
+  text-shadow: 0 0 10px rgb(255, 0, 0), 0 0 20px rgb(255, 0, 0);
+  color: rgb(0, 0, 0);
+}
+
+img {
+    text-align: center;
+    height: 300px;
+    width: 700px;
+    border-radius: 100px;
+}

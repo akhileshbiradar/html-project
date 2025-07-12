@@ -1,0 +1,30 @@
+*{
+    background-color:white;
+}
+h1 {
+    color: rgb(0, 0, 0);
+    background-color: rgb(150, 66, 215);
+}
+
+p {
+    color: black;
+    background-color: rgb(99, 193, 255);
+    font-family:'Times New Roman';
+    
+}
+
+
+img {
+  width: 200px; /* Optional: control image size */
+  animation: zoomInOut 2s infinite ease-in-out;
+}
+
+/* Zoom In and Out Animation */
+@keyframes zoomInOut {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.6); /* Zoom level */
+  }
+}
